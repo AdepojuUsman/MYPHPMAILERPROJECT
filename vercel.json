@@ -1,8 +1,5 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": ".",
-  "framework": "static",
-  "API": {
-    "regions": ["iad1"]
-  }
+  "framework": "static"
 }
