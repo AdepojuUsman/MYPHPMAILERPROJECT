@@ -1,0 +1,16 @@
+{
+  "name": "xaman-landing",
+  "version": "1.0.0",
+  "description": "XAMAN Landing Page with Mail Service",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build needed for static assets'",
+    "start": "node api/mail.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  }
+}

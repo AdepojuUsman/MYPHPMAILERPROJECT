@@ -1,4 +1,10 @@
 <?php
+/**
+ * DEPRECATED: This file is no longer used for Vercel deployment.
+ * The mail endpoint has been converted to a Node.js serverless function at /api/mail.js
+ * Keep this file for reference or local development only.
+ */
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 

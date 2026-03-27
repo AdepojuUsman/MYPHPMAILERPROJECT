@@ -1,0 +1,19 @@
+{
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.formatOnSave": false
+  },
+  "intelephense.files.exclude": [
+    "**/.git/**",
+    "**/.svn/**",
+    "**/.hg/**",
+    "**/CVS/**",
+    "**/.DS_Store/**",
+    "**/vendor/**",
+    "**/node_modules/**"
+  ],
+  "files.exclude": {
+    "**/vendor": true,
+    "**/node_modules": true
+  }
+}
