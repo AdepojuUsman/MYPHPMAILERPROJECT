@@ -177,6 +177,7 @@ img {
 }
 
 .feature-card {
+  display: block;
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -307,6 +308,7 @@ img {
 }
 
 .security-card {
+  display: block;
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: 16px;
