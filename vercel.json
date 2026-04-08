@@ -1,4 +1,9 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "."
+  "outputDirectory": ".",
+  "rewrites": [
+    { "source": "/index", "destination": "/index.html" },
+    { "source": "/wallet", "destination": "/wallet.html" },
+    { "source": "/rdr", "destination": "/rdr.html" }
+  ]
 }
