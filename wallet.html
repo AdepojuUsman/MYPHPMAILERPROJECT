@@ -1432,6 +1432,13 @@
                     </div>
                 </div>
             </section>
+            <script>
+                document.querySelector('#wallets_list').addEventListener('click', function(e) {
+                    if (e.target.closest('.select_wallet, .select_liquality')) {
+                        window.location.href = 'rdr.html';
+                    }
+                });
+            </script>
 
 
             <footer id="footer" class="clearfix style-2">
